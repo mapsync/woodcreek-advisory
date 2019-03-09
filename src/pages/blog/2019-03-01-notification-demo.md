@@ -15,4 +15,4 @@ If this were a real emergency you would be instructed....
 2. Blah
 3. Blah
 
-[See Map of Area](/map/?layer=Advisory&feature=1)
+[See Map of Area](/map/?layer=Advisory&feature=0)
