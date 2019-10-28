@@ -49,9 +49,38 @@ const Navbar = class extends React.Component {
             <Link className="btn btn-link" activeClassName="active" to="/contact">
               Contact
             </Link>
-            <a className="btn btn-link" rel="noopener noreferrer" href="https://portal.utilitydistrict.com/5670" target="_blank">
-              Bill Pay&nbsp;<Icon.ExternalLink size={16}/>
-            </a>
+            <div class="dropdown">
+             <a href="#" class="btn btn-link dropdown-toggle" tabindex="0">
+               Bill Pay <i class="icon icon-caret"></i>
+             </a>
+             <!-- menu component -->
+             <ul class="menu">
+               <li class="menu-item">
+                 <a rel="noopener noreferrer" href="https://portal.utilitydistrict.com/5670" target="_blank">
+                   <i class="icon icon-link"></i> Wood Creek
+                 </a>
+                 <div class="menu-badge">
+                   <Icon.ExternalLink size={16}/>
+                 </div>
+               </li>
+               <li class="menu-item">
+                 <a rel="noopener noreferrer" href="ttps://portal.utilitydistrict.com/5671" target="_blank">
+                   <i class="icon icon-link"></i> West Laurel
+                 </a>
+                 <div class="menu-badge">
+                   <Icon.ExternalLink size={16}/>
+                 </div>
+               </li>
+               <li class="menu-item">
+                 <a rel="noopener noreferrer" href="ttps://portal.utilitydistrict.com/5672" target="_blank">
+                   <i class="icon icon-link"></i> East Laurel
+                 </a>
+                 <div class="menu-badge">
+                   <Icon.ExternalLink size={16}/>
+                 </div>
+               </li>
+             </ul>
+           </div>
           </section>
         </header>
       </div>
