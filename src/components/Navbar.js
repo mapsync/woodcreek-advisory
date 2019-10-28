@@ -24,7 +24,7 @@ const Navbar = class extends React.Component {
             <Icon.Phone size={26}/>
             <div>Contact</div>
           </Link>
-          <div class="dropdown">
+          <div class="btn dropdown dropdown-right pt-2">
              <a href="#" class="btn btn-link dropdown-toggle" tabindex="0">
                <Icon.DollarSign size={26}/>
                <div>Bill Pay</div>
