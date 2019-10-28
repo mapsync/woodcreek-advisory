@@ -24,7 +24,7 @@ const Navbar = class extends React.Component {
             <Icon.Phone size={26}/>
             <div>Contact</div>
           </Link>
-          <div class="btn dropdown dropdown-right pt-2">
+          <div class="btn dropdown dropdown-right pt-1">
              <a href="#" class="btn btn-link dropdown-toggle" tabindex="0">
                <Icon.DollarSign size={26}/>
                <div>Bill Pay</div>
@@ -36,12 +36,12 @@ const Navbar = class extends React.Component {
                  </a>
                </li>
                <li class="menu-item">
-                 <a rel="noopener noreferrer" href="ttps://portal.utilitydistrict.com/5671" target="_blank">
+                 <a rel="noopener noreferrer" href="https://portal.utilitydistrict.com/5671" target="_blank">
                    West Laurel
                  </a>
                </li>
                <li class="menu-item">
-                 <a rel="noopener noreferrer" href="ttps://portal.utilitydistrict.com/5672" target="_blank">
+                 <a rel="noopener noreferrer" href="https://portal.utilitydistrict.com/5672" target="_blank">
                    East Laurel
                  </a>
                </li>
@@ -82,7 +82,7 @@ const Navbar = class extends React.Component {
                  </div>
                </li>
                <li class="menu-item">
-                 <a rel="noopener noreferrer" href="ttps://portal.utilitydistrict.com/5671" target="_blank">
+                 <a rel="noopener noreferrer" href="https://portal.utilitydistrict.com/5671" target="_blank">
                    West Laurel
                  </a>
                  <div class="menu-badge">
@@ -90,7 +90,7 @@ const Navbar = class extends React.Component {
                  </div>
                </li>
                <li class="menu-item">
-                 <a rel="noopener noreferrer" href="ttps://portal.utilitydistrict.com/5672" target="_blank">
+                 <a rel="noopener noreferrer" href="https://portal.utilitydistrict.com/5672" target="_blank">
                    East Laurel
                  </a>
                  <div class="menu-badge">
