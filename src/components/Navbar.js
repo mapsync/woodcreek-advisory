@@ -53,7 +53,6 @@ const Navbar = class extends React.Component {
              <a href="#" class="btn btn-link dropdown-toggle" tabindex="0">
                Bill Pay <i class="icon icon-caret"></i>
              </a>
-             <!-- menu component -->
              <ul class="menu">
                <li class="menu-item">
                  <a rel="noopener noreferrer" href="https://portal.utilitydistrict.com/5670" target="_blank">
