@@ -24,10 +24,29 @@ const Navbar = class extends React.Component {
             <Icon.Phone size={26}/>
             <div>Contact</div>
           </Link>
-          <a className="btn pt-2" rel="noopener noreferrer" href="https://portal.utilitydistrict.com/5670" target="_blank">
-            <Icon.DollarSign size={26}/>
-            <div>Bill Pay</div>
-          </a>
+          <div class="dropdown">
+             <a href="#" class="btn btn-link dropdown-toggle" tabindex="0">
+               <Icon.DollarSign size={26}/>
+               <div>Bill Pay</div>
+             </a>
+             <ul class="menu">
+               <li class="menu-item">
+                 <a rel="noopener noreferrer" href="https://portal.utilitydistrict.com/5670" target="_blank">
+                   Wood Creek
+                 </a>
+               </li>
+               <li class="menu-item">
+                 <a rel="noopener noreferrer" href="ttps://portal.utilitydistrict.com/5671" target="_blank">
+                   West Laurel
+                 </a>
+               </li>
+               <li class="menu-item">
+                 <a rel="noopener noreferrer" href="ttps://portal.utilitydistrict.com/5672" target="_blank">
+                   East Laurel
+                 </a>
+               </li>
+             </ul>
+           </div>
         </div>
       </div>
       <div className="container grid-xs hide-xs">
@@ -51,12 +70,12 @@ const Navbar = class extends React.Component {
             </Link>
             <div class="dropdown">
              <a href="#" class="btn btn-link dropdown-toggle" tabindex="0">
-               Bill Pay <i class="icon icon-caret"></i>
+               Bill Pay
              </a>
              <ul class="menu">
                <li class="menu-item">
                  <a rel="noopener noreferrer" href="https://portal.utilitydistrict.com/5670" target="_blank">
-                   <i class="icon icon-link"></i> Wood Creek
+                   Wood Creek
                  </a>
                  <div class="menu-badge">
                    <Icon.ExternalLink size={16}/>
@@ -64,7 +83,7 @@ const Navbar = class extends React.Component {
                </li>
                <li class="menu-item">
                  <a rel="noopener noreferrer" href="ttps://portal.utilitydistrict.com/5671" target="_blank">
-                   <i class="icon icon-link"></i> West Laurel
+                   West Laurel
                  </a>
                  <div class="menu-badge">
                    <Icon.ExternalLink size={16}/>
@@ -72,7 +91,7 @@ const Navbar = class extends React.Component {
                </li>
                <li class="menu-item">
                  <a rel="noopener noreferrer" href="ttps://portal.utilitydistrict.com/5672" target="_blank">
-                   <i class="icon icon-link"></i> East Laurel
+                   East Laurel
                  </a>
                  <div class="menu-badge">
                    <Icon.ExternalLink size={16}/>
